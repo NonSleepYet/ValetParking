@@ -5,7 +5,7 @@ const Header = ({ activeTab, setActiveTab }) => {
   return (
     <header>
       <div className="logo">
-        <h1>OT Valet Parking</h1>
+        <h1 className='title'>OT Valet Parking</h1>
       </div>
       <nav>
         <ul className="navbar">
