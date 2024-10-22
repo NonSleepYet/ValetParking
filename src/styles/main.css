@@ -54,10 +54,12 @@ nav {
 
 /* Contenido de las pestañas */
 .tab-content {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 800px;
+    margin: 15px auto;
+    padding: 10px;
+    height: max-content;
+    width: 98%;
     background-color: #fff;
+    border: 50px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(34, 20, 228, 0.596);
 }
