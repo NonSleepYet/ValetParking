@@ -1,12 +1,14 @@
 import Home from '../pages/Home'
 import ErrorNotFound from '../pages/ErrorNotFound'
 import About from '../pages/About'
-import ChooseUs from '../pages/ChooseUs'
+import ChooseUs from '../pages/ChooseUs';
 import Clients from '../pages/Clients'
 import Contact from '../pages/Contact'
 import Galery from '../pages/Galery'
 import Services from '../pages/Services'
-import { Children } from 'react'
+
+
+
 
 
 
@@ -25,7 +27,7 @@ export let routes = [
         element: <Services />
     },
     {
-        path: '/chooseUs',
+        path: '/choose-us',
         element: <ChooseUs />
     },
     {

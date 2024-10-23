@@ -1,16 +1,51 @@
-header {
-  padding-right: 1%;
+.logo {
+  display: inline-block; /* Permite al logo estar en línea con el texto */
+  margin-right: 10px;
 }
 
-header .enlace {
-  background-color: rgb(22, 20, 16);
+.logo-icon {
+  height: 93px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.encabezado {
+  background-color: rgba(
+    43,
+    41,
+    41,
+    0.712
+  ); /* Cambiado a 0.8 para hacer el fondo un poco más visible */
+  padding: 10px 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 50px;
-  margin-top: 1%;
+  justify-content: space-between; /* Distribuye los elementos a través del ancho */
+}
+
+.enlace {
+  flex: 1; /* Hace que cada enlace ocupe el mismo espacio */
+  text-align: center;
+  margin: 0 10px;
   text-decoration: none;
-  border-radius: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: background-color 0.3s ease; /* Suaviza el efecto hover */
+  font-size: 19px;
+}
+
+.enlace:hover {
+  background-color: rgba(48, 175, 184, 0.63);
+  color: rgb(243, 243, 243);
+}
+
+@media (max-width: 768px) {
+  .encabezado {
+    flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+  }
+
+  .enlace {
+    width: 100%; /* Cada enlace ocupa todo el ancho */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
 }
