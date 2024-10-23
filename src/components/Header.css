@@ -10,16 +10,14 @@
 }
 
 .encabezado {
-  background-color: rgba(
-    43,
-    41,
-    41,
-    0.712
-  ); /* Cambiado a 0.8 para hacer el fondo un poco más visible */
+  background-color: rgb(0, 0, 0);
   padding: 10px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribuye los elementos a través del ancho */
+  justify-content: space-between;
+  position: relative; /* Para asegurar que esté bien posicionsado */
+  z-index: 10; /* Asegura que el encabezado esté por encima de otros elementos */
+  width: 100%; /* Asegura que el navbar ocupe todo el ancho */
 }
 
 .enlace {
@@ -30,7 +28,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   transition: background-color 0.3s ease; /* Suaviza el efecto hover */
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .enlace:hover {

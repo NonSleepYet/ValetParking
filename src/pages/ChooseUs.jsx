@@ -4,10 +4,18 @@ import './Choose.css'
 
 const ChooseUs = () => {
     return (
-        <section>
-            <Header />
-            <h1>elegirnos</h1>
-        </section>
+        <div>
+            <div>
+                <Header />
+            </div>
+            <section className="about">
+
+                <div className="content">
+                    <h1>¿Quiénes Somos?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam voluptatibus nisi, error autem, assumenda, deleniti ex repudiandae veniam doloribus enim vero! Quo, vitae quos? Rerum, vel!</p>
+                </div>
+            </section>
+        </div>
     )
 }
 

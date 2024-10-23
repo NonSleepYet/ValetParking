@@ -13,9 +13,9 @@
   text-align: center;
   padding: 20px;
 }
-a
-  /* Overlay para hacer la imagen menos visible */
-  .home::before {
+
+
+/* a .home::before {
   content: "";
   position: absolute;
   top: 0;
@@ -23,5 +23,6 @@ a
   right: 0;
   bottom: 0;
   background-color: rgba(7, 7, 7, 0.1);
-  z-index: 0; /* Asegura que el overlay esté por debajo del contenido */
-}
+  z-index: 0;  Asegura que el overlay esté por debajo del contenido 
+} */
+  

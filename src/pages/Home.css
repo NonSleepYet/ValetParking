@@ -4,6 +4,11 @@
   background-image: url("/public/inicio.png");
   background-size: cover;
   background-position: center;
+
+  /* Centrar el contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -13,8 +18,7 @@
   text-align: center;
   padding: 20px;
 }
-a
-/* Overlay para hacer la imagen menos visible */
+
 .home::before {
   content: "";
   position: absolute;
